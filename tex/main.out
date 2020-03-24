@@ -1,0 +1,41 @@
+\BOOKMARK [1][-]{section.1}{Introduction }{}% 1
+\BOOKMARK [1][-]{section.2}{Related Work}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Generative Pre-Training \(GPT\) Models}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{BERT as an Encoder}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Approach}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Baselines: Vanilla GPT-2}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{BERT-GPT LMH: BERT-assisted GPT Language Model Head}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{BERT-GPT DAU: BERT-assisted GPT Distribution Adjustment Unit}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{BERGPT: A Transformer Built with BERT and GPT}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Experiments}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Data}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.2}{Experimental Details}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.3}{Evaluation Metrics}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.4}{Results}{section.4}% 14
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Quantitative Metrics}{subsection.4.4}% 15
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Human evaluation results}{subsection.4.4}% 16
+\BOOKMARK [1][-]{section.5}{Analysis}{}% 17
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 18
+\BOOKMARK [1][-]{appendix.A}{Generated Samples: without Context Prompt}{}% 19
+\BOOKMARK [2][-]{subsection.A.1}{BERT-assisted GPT Language Model Head}{appendix.A}% 20
+\BOOKMARK [3][-]{subsubsection.A.1.1}{Good}{subsection.A.1}% 21
+\BOOKMARK [3][-]{subsubsection.A.1.2}{Bad}{subsection.A.1}% 22
+\BOOKMARK [2][-]{subsection.A.2}{BERT-assisted GPT Distribution Adjustment}{appendix.A}% 23
+\BOOKMARK [3][-]{subsubsection.A.2.1}{Good}{subsection.A.2}% 24
+\BOOKMARK [3][-]{subsubsection.A.2.2}{Bad}{subsection.A.2}% 25
+\BOOKMARK [2][-]{subsection.A.3}{BERGPT}{appendix.A}% 26
+\BOOKMARK [3][-]{subsubsection.A.3.1}{Good}{subsection.A.3}% 27
+\BOOKMARK [3][-]{subsubsection.A.3.2}{Bad}{subsection.A.3}% 28
+\BOOKMARK [1][-]{appendix.B}{Generated Samples: with Context Prompt}{}% 29
+\BOOKMARK [2][-]{subsection.B.1}{Baseline GPT Model}{appendix.B}% 30
+\BOOKMARK [3][-]{subsubsection.B.1.1}{Good}{subsection.B.1}% 31
+\BOOKMARK [3][-]{subsubsection.B.1.2}{Bad}{subsection.B.1}% 32
+\BOOKMARK [2][-]{subsection.B.2}{BERT-assisted GPT Language Model Head}{appendix.B}% 33
+\BOOKMARK [3][-]{subsubsection.B.2.1}{Good}{subsection.B.2}% 34
+\BOOKMARK [3][-]{subsubsection.B.2.2}{Bad}{subsection.B.2}% 35
+\BOOKMARK [2][-]{subsection.B.3}{BERT-assisted GPT Distribution Adjustment}{appendix.B}% 36
+\BOOKMARK [3][-]{subsubsection.B.3.1}{Good}{subsection.B.3}% 37
+\BOOKMARK [3][-]{subsubsection.B.3.2}{Bad}{subsection.B.3}% 38
+\BOOKMARK [2][-]{subsection.B.4}{BERGPT}{appendix.B}% 39
+\BOOKMARK [3][-]{subsubsection.B.4.1}{Good}{subsection.B.4}% 40
+\BOOKMARK [3][-]{subsubsection.B.4.2}{Bad}{subsection.B.4}% 41

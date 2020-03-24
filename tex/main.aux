@@ -1,0 +1,154 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{gpt2}
+\citation{bert}
+\citation{github}
+\citation{bert}
+\citation{transformer}
+\citation{gpt}
+\citation{gpt2}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction }{1}{section.1}\protected@file@percent }
+\citation{sparsetransformer}
+\citation{crosslingual}
+\citation{bert}
+\citation{transformerxl}
+\citation{xlnet}
+\citation{github}
+\citation{ctrl}
+\citation{bert}
+\citation{transformer}
+\citation{liu2019roberta}
+\citation{xlnet}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Generative Pre-Training (GPT) Models}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}BERT as an Encoder}{2}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Approach}{2}{section.3}\protected@file@percent }
+\citation{ctrl}
+\newlabel{lm_objective}{{1}{3}{Approach}{equation.3.1}{}}
+\newlabel{conditional_objective}{{2}{3}{Approach}{equation.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Baselines: Vanilla GPT-2}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Unconditioned text generation:}{3}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Topic as prompt:}{3}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}BERT-GPT LMH: BERT-assisted GPT Language Model Head}{3}{subsection.3.2}\protected@file@percent }
+\citation{transformer}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Model structures of BERT-GPT LM (left) and BERT-GPT DA (right)\relax }}{4}{figure.caption.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}BERT-GPT DAU: BERT-assisted GPT Distribution Adjustment Unit}{4}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}BERGPT: A Transformer Built with BERT and GPT}{4}{subsection.3.4}\protected@file@percent }
+\citation{cnndailymail}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{multi-head}{{2b}{5}{Multi-head Attention layer structure\relax }{figure.caption.5}{}}
+\newlabel{sub@multi-head}{{b}{5}{Multi-head Attention layer structure\relax }{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Model structure of BERGPT. Here we show a simplified version where the encoder and decoder only have one BERT-encoder block and one GPT-decoder block respectively. In our experiments we follow the structure of the original BERT and GPT-2 model and have 12 layers of blocks for both the encoder and the decoder.\relax }}{5}{figure.caption.5}\protected@file@percent }
+\citation{bpe}
+\citation{adamw}
+\citation{lin-2004-rouge}
+\citation{NIPS2001_2070}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{6}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Data}{6}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Experimental Details}{6}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Evaluation Metrics}{6}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Perplexity}{6}{section*.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{ROUGE Scores}{6}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{LDA + JSD}{6}{section*.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Human evaluation}{6}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Results}{6}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1}Quantitative Metrics}{6}{subsubsection.4.4.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Quantitative evaluation results. ROUGE-1 refers to the overlap of unigram between the target and generated articles, ROUGE-2 refers to the bigram overlap and ROUGE-L refers to the longest common subsequence based statistics.\relax }}{7}{table.caption.10}\protected@file@percent }
+\newlabel{tab:my_label}{{1}{7}{Quantitative evaluation results. ROUGE-1 refers to the overlap of unigram between the target and generated articles, ROUGE-2 refers to the bigram overlap and ROUGE-L refers to the longest common subsequence based statistics.\relax }{table.caption.10}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2}Human evaluation results}{7}{subsubsection.4.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Analysis}{8}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{8}{section.6}\protected@file@percent }
+\bibstyle{unsrt}
+\bibdata{references}
+\bibcite{gpt2}{{1}{}{{}}{{}}}
+\bibcite{bert}{{2}{}{{}}{{}}}
+\bibcite{github}{{3}{}{{}}{{}}}
+\bibcite{transformer}{{4}{}{{}}{{}}}
+\bibcite{gpt}{{5}{}{{}}{{}}}
+\bibcite{sparsetransformer}{{6}{}{{}}{{}}}
+\bibcite{crosslingual}{{7}{}{{}}{{}}}
+\bibcite{transformerxl}{{8}{}{{}}{{}}}
+\bibcite{xlnet}{{9}{}{{}}{{}}}
+\bibcite{ctrl}{{10}{}{{}}{{}}}
+\bibcite{liu2019roberta}{{11}{}{{}}{{}}}
+\bibcite{cnndailymail}{{12}{}{{}}{{}}}
+\bibcite{bpe}{{13}{}{{}}{{}}}
+\bibcite{adamw}{{14}{}{{}}{{}}}
+\bibcite{lin-2004-rouge}{{15}{}{{}}{{}}}
+\bibcite{NIPS2001_2070}{{16}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Generated Samples: without Context Prompt}{10}{appendix.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}BERT-assisted GPT Language Model Head}{10}{subsection.A.1}\protected@file@percent }
+\newlabel{lm-wo}{{A.1}{10}{BERT-assisted GPT Language Model Head}{subsection.A.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.1.1}Good}{10}{subsubsection.A.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Highlight}{10}{section*.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Generated}{10}{section*.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.1.2}Bad}{10}{subsubsection.A.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Highlight}{10}{section*.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Generated}{10}{section*.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}BERT-assisted GPT Distribution Adjustment}{10}{subsection.A.2}\protected@file@percent }
+\newlabel{dau-wo}{{A.2}{10}{BERT-assisted GPT Distribution Adjustment}{subsection.A.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.2.1}Good}{10}{subsubsection.A.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Highlight}{10}{section*.16}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Generated}{10}{section*.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.2.2}Bad}{11}{subsubsection.A.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Highlight}{11}{section*.18}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Generated}{11}{section*.19}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.3}BERGPT}{11}{subsection.A.3}\protected@file@percent }
+\newlabel{bergpt-wo}{{A.3}{11}{BERGPT}{subsection.A.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.3.1}Good}{11}{subsubsection.A.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Highlight}{11}{section*.20}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Generated}{11}{section*.21}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.3.2}Bad}{11}{subsubsection.A.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Highlight}{11}{section*.22}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Generated}{11}{section*.23}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {B}Generated Samples: with Context Prompt}{11}{appendix.B}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.1}Baseline GPT Model}{11}{subsection.B.1}\protected@file@percent }
+\newlabel{gpt-w}{{B.1}{11}{Baseline GPT Model}{subsection.B.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {B.1.1}Good}{11}{subsubsection.B.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Highlight}{11}{section*.24}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Generated}{11}{section*.25}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {B.1.2}Bad}{12}{subsubsection.B.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Highlight}{12}{section*.26}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Generated}{12}{section*.27}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.2}BERT-assisted GPT Language Model Head}{12}{subsection.B.2}\protected@file@percent }
+\newlabel{lm-w}{{B.2}{12}{BERT-assisted GPT Language Model Head}{subsection.B.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {B.2.1}Good}{12}{subsubsection.B.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Highlight}{12}{section*.28}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Generated}{12}{section*.29}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {B.2.2}Bad}{12}{subsubsection.B.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Highlight}{12}{section*.30}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Generated}{12}{section*.31}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.3}BERT-assisted GPT Distribution Adjustment}{12}{subsection.B.3}\protected@file@percent }
+\newlabel{dau-w}{{B.3}{12}{BERT-assisted GPT Distribution Adjustment}{subsection.B.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {B.3.1}Good}{12}{subsubsection.B.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Highlight}{12}{section*.32}\protected@file@percent }
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\@writefile{toc}{\contentsline {paragraph}{Generated}{13}{section*.33}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {B.3.2}Bad}{13}{subsubsection.B.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Highlight}{13}{section*.34}\protected@file@percent }
+\newlabel{bad-dau-w}{{B.3.2}{13}{Generated}{section*.35}{}}
+\@writefile{toc}{\contentsline {paragraph}{Generated}{13}{section*.35}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.4}BERGPT}{13}{subsection.B.4}\protected@file@percent }
+\newlabel{bergpt-w}{{B.4}{13}{BERGPT}{subsection.B.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {B.4.1}Good}{13}{subsubsection.B.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Highlight}{13}{section*.36}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Generated}{13}{section*.37}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {B.4.2}Bad}{13}{subsubsection.B.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Highlight}{13}{section*.38}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Generated}{13}{section*.39}\protected@file@percent }

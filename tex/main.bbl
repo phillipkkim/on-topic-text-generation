@@ -1,0 +1,110 @@
+\begin{thebibliography}{10}
+
+\bibitem{gpt2}
+Alec Radford, Jeff Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+  Sutskever.
+\newblock Language models are unsupervised multitask learners.
+\newblock 2019.
+
+\bibitem{bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock {BERT}: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock In {\em Proceedings of the 2019 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long and Short Papers)}, pages 4171--4186,
+  Minneapolis, Minnesota, June 2019. Association for Computational Linguistics.
+
+\bibitem{github}
+gpt-2.
+\newblock https://github.com/openai/gpt-2.
+
+\bibitem{transformer}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, \L~ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, and R.~Garnett, editors, {\em Advances in Neural Information
+  Processing Systems 30}, pages 5998--6008. Curran Associates, Inc., 2017.
+
+\bibitem{gpt}
+Alec Radford, Karthik Narasimhan, Tim~Salimans Salimans, and Ilya Sutskever.
+\newblock Improving language understanding by generative pre-training.
+\newblock 2018.
+
+\bibitem{sparsetransformer}
+Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever.
+\newblock Generating long sequences with sparse transformers.
+\newblock 04 2019.
+
+\bibitem{crosslingual}
+Guillaume Lample and Alexis Conneau.
+\newblock Cross-lingual language model pretraining.
+\newblock {\em Advances in Neural Information Processing Systems (NeurIPS)},
+  2019.
+
+\bibitem{transformerxl}
+Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc Le, and Ruslan
+  Salakhutdinov.
+\newblock Transformer-{XL}: Attentive language models beyond a fixed-length
+  context.
+\newblock In {\em Proceedings of the 57th Annual Meeting of the Association for
+  Computational Linguistics}, pages 2978--2988, Florence, Italy, July 2019.
+  Association for Computational Linguistics.
+
+\bibitem{xlnet}
+Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Russ~R Salakhutdinov,
+  and Quoc~V Le.
+\newblock Xlnet: Generalized autoregressive pretraining for language
+  understanding.
+\newblock In H.~Wallach, H.~Larochelle, A.~Beygelzimer, F.~d\textquotesingle
+  Alch\'{e}-Buc, E.~Fox, and R.~Garnett, editors, {\em Advances in Neural
+  Information Processing Systems 32}, pages 5753--5763. Curran Associates,
+  Inc., 2019.
+
+\bibitem{ctrl}
+Nitish~Shirish Keskar, Bryan McCann, Lav Varshney, Caiming Xiong, and Richard
+  Socher.
+\newblock {CTRL - A Conditional Transformer Language Model for Controllable
+  Generation}.
+\newblock {\em arXiv preprint arXiv:1909.05858}, 2019.
+
+\bibitem{liu2019roberta}
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer
+  Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov.
+\newblock Roberta: A robustly optimized bert pretraining approach, 2019.
+
+\bibitem{cnndailymail}
+Karl~Moritz Hermann, Tomas Kocisky, Edward Grefenstette, Lasse Espeholt, Will
+  Kay, Mustafa Suleyman, and Phil Blunsom.
+\newblock Teaching machines to read and comprehend.
+\newblock In C.~Cortes, N.~D. Lawrence, D.~D. Lee, M.~Sugiyama, and R.~Garnett,
+  editors, {\em Advances in Neural Information Processing Systems 28}, pages
+  1693--1701. Curran Associates, Inc., 2015.
+
+\bibitem{bpe}
+Rico Sennrich, Barry Haddow, and Alexandra Birch.
+\newblock Neural machine translation of rare words with subword units.
+\newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}, pages 1715--1725, Berlin,
+  Germany, August 2016. Association for Computational Linguistics.
+
+\bibitem{adamw}
+Diederik~P Kingma and Jimmy Ba.
+\newblock Adam: A method for stochastic optimization.
+\newblock {\em arXiv preprint arXiv:1412.6980}, 2014.
+
+\bibitem{lin-2004-rouge}
+Chin-Yew Lin.
+\newblock {ROUGE}: A package for automatic evaluation of summaries.
+\newblock In {\em Text Summarization Branches Out}, pages 74--81, Barcelona,
+  Spain, July 2004. Association for Computational Linguistics.
+
+\bibitem{NIPS2001_2070}
+David~M. Blei, Andrew~Y. Ng, and Michael~I. Jordan.
+\newblock Latent dirichlet allocation.
+\newblock In T.~G. Dietterich, S.~Becker, and Z.~Ghahramani, editors, {\em
+  Advances in Neural Information Processing Systems 14}, pages 601--608. MIT
+  Press, 2002.
+
+\end{thebibliography}

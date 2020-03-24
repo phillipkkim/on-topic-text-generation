@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Database file #1: references.bib
+Warning--empty journal in gpt2
+Warning--empty journal in gpt
+Warning--empty journal in sparsetransformer
+You've used 16 entries,
+            1791 wiz_defined-function locations,
+            534 strings with 7100 characters,
+and the built_in function-call counts, 5176 in all, are:
+= -- 445
+> -- 314
+< -- 8
++ -- 108
+- -- 92
+* -- 347
+:= -- 791
+add.period$ -- 54
+call.type$ -- 16
+change.case$ -- 16
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 240
+empty$ -- 436
+format.name$ -- 92
+if$ -- 1188
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 14
+newline$ -- 81
+num.names$ -- 23
+pop$ -- 84
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 154
+stack$ -- 0
+substring$ -- 296
+swap$ -- 95
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 43
+width$ -- 18
+write$ -- 174
+(There were 3 warnings)

@@ -1,1 +1,2 @@
-# on-topic-text-generation
+# On-Topic Text Generation
+see paper [here](tex/main.pdf)
